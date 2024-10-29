@@ -1,0 +1,64 @@
+{
+  "name": "Nifties_Trend_Automation",
+  "projectId": "6bf8d862-6e0d-46ca-aa33-e995d9d62273",
+  "description": "Extract the Sensex points from the NSE website and retrieve the corresponding arrow indicator (red or green) indicating the market trend. \r\nWrite the current date and Nifty value to the Excel report.\r\nWrite the indicator value (up or down) to the Excel report.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.1]",
+    "UiPath.GSuite.Activities": "[2.7.22]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.7.22]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Testing.Activities": "[24.10.2-preview]",
+    "UiPath.UIAutomation.Activities": "[24.11.1-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.5.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "03ec8f73-c529-4747-bf3e-10a7060a0ce4",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

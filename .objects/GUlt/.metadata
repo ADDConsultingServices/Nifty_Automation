@@ -1,0 +1,11 @@
+﻿{
+  "Name": "nseWebsite",
+  "Type": "App",
+  "Id": "GUltR_hMGU2mvxGAaSk8DA",
+  "Reference": "Yxat2Ox7M0KCiwZ9wn3mdw/GUltR_hMGU2mvxGAaSk8DA",
+  "Created": "2024-10-01T06:45:47.2972863Z",
+  "Updated": "2024-10-01T06:45:47.2972863Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=24.11.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
